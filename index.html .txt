@@ -1,0 +1,24 @@
+﻿<body>
+    <header>
+        <h1>Welcome to AHP</h1>
+    </header>
+    <nav>
+        <a href="index.html" class="logo">AHP</a>
+        <div>
+            <a href="cycling-products.html">Cycling Products</a>
+            <a href="guitar-products.html">Guitar Products</a>
+            <a href="about.html">About</a>
+            <a href="collaborate.html">Let's Collaborate</a>
+            <a href="contact.html">Contact</a>
+            <a href="catalogue.html">2025 Catalogue</a>
+        </div>
+    </nav>
+    <main>
+        <h2>Home</h2>
+        <p>Discover unique gifts for cyclists and guitarists.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Stories From Ltd</p>
+    </footer>
+</body>
+</html>
