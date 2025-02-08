@@ -3,126 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | AHP</title>
+    <title>AHP - Under Construction</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aileron:wght@400&display=swap');
+        
         body {
-            font-family: 'Aileron', sans-serif;
-            font-size: 12pt;
-            color: black;
-            margin: 0;
-            padding: 0;
-        }
-        header {
             display: flex;
             flex-direction: column;
+            justify-content: center;
             align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Aileron', sans-serif;
             text-align: center;
         }
-        .header-image {
-            width: 100%;
-            height: 200px;
-            background: grey; /* Placeholder for header image */
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
         }
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-            background: #f4f4f4;
-            padding: 10px 20px;
-        }
-        .nav-links {
-            display: flex;
-            gap: 20px;
-        }
-        .nav-links a {
-            text-decoration: none;
-            color: black;
-        }
-        main {
-            padding: 20px;
-            text-align: center;
+        .construction {
+            font-size: 100pt;
         }
         footer {
-            background: #f4f4f4;
-            text-align: center;
-            padding: 10px;
+            position: absolute;
+            bottom: 10px;
+            font-size: 12pt;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="header-image"></div>
-        <nav>
-            <a href="index.html"><img src="ACP logo - black & white copy 3.png" alt="AHP Logo height="40">AHP - Gifts For Passionate People</a>
-            <div class="nav-links">
-                <a href="cycling-products.html">Cycling Products</a>
-                <a href="guitar-products.html">Guitar Products</a>
-              <a href="AHP Catalogue 2025.pdf">2025 Catalogue</a>
-                <a href="#about">About</a>
-                <a href="#collaborate">Let's Collaborate</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="about">
-            <h1>About AHP</h1>
-            <p>Welcome to AHP, where we create unique gifts for cycling and guitar enthusiasts.</p>
-        </section>
-        
-        <section id="collaborate">
-            <h2>Let's Collaborate</h2>
-            <p>Interested in working with us? We’d love to hear your ideas!</p>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Want to stock any of AHP's products? Have an idea for a product of your own? Start the conversation by sending a message.</p>
-            <form id="contactForm" action="https://script.google.com/macros/s/AKfycbxDFoJ5PNZrfBUx_7rEnjhNr-U8tmQ5TMjMK2qJPUTIrc63BTuSOqEPgpu6bWr5GHF2mQ/exec" method="POST">
-  <label for="firstName">First Name:</label>
-  <input type="text" id="firstName" name="firstName" required>
-  
-  <label for="lastName">Last Name:</label>
-  <input type="text" id="lastName" name="lastName" required>
-  
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-  
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" required></textarea>
-  
-  <button type="submit">Send Message</button>
-</form>
-
-<script>
-  document.getElementById("contactForm").addEventListener("submit", function(event) {
-    event.preventDefault();
-    
-    const formData = new FormData(this);
-    fetch(this.action, {
-      method: "POST",
-      body: formData,
-    })
-    .then(response => response.text())
-    .then(data => {
-      alert("Message sent successfully!");
-      document.getElementById("contactForm").reset();
-    })
-    .catch(error => {
-      alert("There was an error sending your message.");
-    });
-  });
-</script>
-</form>
-
-
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 Stories From Ltd. All rights reserved. Company number 12431453</p>
-    </footer>
+    <img src="logo.png" alt="AHP Logo" class="logo">
+    <div class="construction">Under Construction</div>
+    <footer>&copy; 2025 Stories From Ltd.</footer>
 </body>
 </html>
