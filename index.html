@@ -3,29 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AHP - </title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Home | AHP</title>
+    <style>
+        body {
+            font-family: 'Aileron', sans-serif;
+            font-size: 12pt;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .header-image {
+            width: 100%;
+            height: 200px;
+            background: grey; /* Placeholder for header image */
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background: #f4f4f4;
+            padding: 10px 20px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background: #f4f4f4;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <img src="header-image.jpg" alt="AHP - Gifts For Passionate People" class="header-image">
+        <div class="header-image"></div>
         <nav>
-            <a href="index.html" class="logo"><img src="ACP logo - black & white copy 3.png" alt="AHP Logo"></a>
-            <ul>
-                <li><a href="cycling-products.html">Cycling Products</a></li>
-                <li><a href="guitar-products.html">Guitar Products</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="collaborate.html">Let’s Collaborate</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="AHP Catalogue 2025.pdf">2025 Catalogue</a></li>
-            </ul>
+            <a href="index.html"><img src="ACP logo - black & white copy 3.png" alt="AHP Logo height="40">AHP - Gifts For Passionate People</a>
+            <div class="nav-links">
+                <a href="cycling-products.html">Cycling Products</a>
+                <a href="guitar-products.html">Guitar Products</a>
+              <a href="AHP Catalogue 2025.pdf">2025 Catalogue</a>
+                <a href="#about">About</a>
+                <a href="#collaborate">Let's Collaborate</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
     
     <main>
-        <section>
-            <h1>Welcome to AHP</h1>
-            <p>Explore our unique gifts for cyclists and guitarists, designed to delight enthusiasts and those who love them.</p>
+        <section id="about">
+            <h1>About AHP</h1>
+            <p>Welcome to AHP, where we create unique gifts for cycling and guitar enthusiasts.</p>
+        </section>
+        
+        <section id="collaborate">
+            <h2>Let's Collaborate</h2>
+            <p>Interested in working with us? We’d love to hear your ideas!</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Get in touch via email or social media.</p>
         </section>
     </main>
     
