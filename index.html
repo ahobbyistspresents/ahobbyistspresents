@@ -1,40 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8B5PS8HRHE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8B5PS8HRHE');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AHP - Gifts for Passionate People</title>
-    <link rel="icon" href="ACP logo - black copy 4.png" type="image/x-icon">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Aileron:wght@400&display=swap');
-        
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 75vh;
-            margin: 0;
-            font-family: 'Aileron', sans-serif;
-            text-align: center;
-        }
-        .logo {
-            max-width: 400px;
-            margin-bottom: 20px;
-        }
-        .construction {
-            font-size: 75pt;
-        }
-        footer {
-            position: absolute;
-            bottom: 10px;
-            font-size: 12pt;
-        }
-    </style>
+    <title>Home | AHP</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="ACP logo - black & white copy 3.png" alt="AHP Logo" class="logo">
-    <div class="construction">Under Construction</div>
-    <footer>&copy; 2025 Stories From Ltd.</footer>
+    <header>
+        <div class="header-image"></div>
+
+<nav class="navbar">
+        <a href="index.html">
+            <img src="AHP_logo.png" alt="AHP Logo" class="logo" style="width:250px;height:125px;padding-left: 50px;">
+        </a>
+        <div class="nav-links">
+            <a href="acp-cycling-products.html">Cycling Products</a> |
+            <a href="agp-guitar-products.html">Guitar Products</a> |
+            <a href="AHP_Catalogue_2025.pdf">2025 Catalogue</a> |
+            <a href="#about">About</a> |
+            <a href="#collaborate">Let's Collaborate</a> |
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    </header>
+    
+    <div class="container">
+        <div class="half-container" style="padding-left; 25px">
+            <h2>A Cyclist's Presents</h2>
+            <a href="acp-cycling-products.html"><img src="TdF_quiz_hero.png" alt="Cycling Products"></a>
+            <button onclick="location.href='acp-cycling-products.html'">Check out ACP's cycling products</button>
+        </div>
+        <div class="half-container" style="padding-right; 25px">
+            <h2>A Guitarist's Presents</h2>
+            <a href="agp-guitar-products.html"><img src="GTT_True_or_False_hero.png" alt="Guitar Products"></a>
+            <button onclick="location.href='agp-guitar-products.html'">Check out AGP's guitar products</button>
+        </div>
+    </div>
+
+    <div class="full-container" id="about" style="background-color: rgba(142, 202, 230, .75);">
+        <h2><u>About AHP</u></h2>
+        <div class="split-container">
+            <div style="padding-right: 100px;">
+                <p>Design, data, and fun drive product development.</p>
+                <p>Eoghan McHugh, a cycling and guitar enthusiast, started ACP in 2023 and AGP in 2024 to create giftware for cyclists and guitarists.</p>
+                <p>Each product answers four key questions:
+                    <ol>
+                        <li>Is it clear to the customer what the product is about?</li>
+                        <li>Is the design and quality gift-worthy?</li>
+                        <li>Will the recipient enjoy the product?</li>
+                        <li>Will the recipient get something from their gift?</li>
+                    </ol>
+                Every item is crafted with these principles, ensuring thoughtful, well-designed gifts for cyclists and guitarists alike.</p>
+            </div>
+            <div>
+                <center><img src="about-image.jpg" alt="About AHP"></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-container" id="collaborate" style="background-color: rgba(255, 183, 3,0.75);">
+        <h2><u>Let's Collaborate</u></h2>
+        <div class="split-container">
+            <div style="padding-right: 100px;">
+                <p>Bikes and guitars aren't the only hobbies worth obsessing over.</p>
+                <p>But bikes and guitars are what keep me up at night.</p>
+                <p>Got a hobby that you're passionate about? Send me an email. We can find a way to collaborate to bring your idea to life.</p>
+            </div>
+            <div>
+                <center><button onclick="location.href='#contact'">Get in touch to collaborate</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-container" id="contact">
+        <h2>Contact</h2>
+        <div class="form-row">
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+        </div>
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Type your message here" rows="4"></textarea>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+
+    
+    <footer>
+        <p>&copy; 2025 Stories From Ltd | All rights reserved | Company number 12431453</p>
+    </footer>
 </body>
 </html>
