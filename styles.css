@@ -1,0 +1,136 @@
+         header {
+            width: auto;
+            align-items: center;
+            text-align: center;
+                padding-left: 2.5%;
+                padding-right: 2.5%;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: auto;
+            background: #f4f4f4;
+            padding: 10px 20px;
+        }
+
+        .header-image {
+            /*width: 100%;*/
+            height: 200px;
+            background: white; /* Placeholder for header image */
+        }
+
+        logo {
+            width: 250px;
+            height: 125px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            padding-right: 20px;
+            padding-left: 10px;
+        }
+        .nav-links a {
+            decoration: none;
+            color: black;
+        }
+
+        .nav-links a:hover {
+            decoration: underline;
+        }
+
+       body {
+            font-family: 'Aileron', sans-serif;
+            font-size: 12pt;
+            color: black;
+            margin: 0;
+            padding: 0px;
+            width: auto;
+         }
+
+        main {
+            padding: 0px;
+            align: center;
+        }
+
+        img {
+            height: 400px;
+            width: 400px;
+            
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 75px;
+            padding-right: 75px;
+            padding-top: 75px;
+            padding-bottom: 75px;
+            box-sizing: border-box;
+         }
+
+         .full-container {
+            width: auto;
+            align: left;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            box-sizing: border-box;
+        }
+
+        .half-container {
+            width: 50%;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        .split-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .split-container div {
+            width: 50%;
+        }
+        
+        button {
+            display: block;
+            margin: auto;
+            padding: 20px;
+            background-color: #023047;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input, textarea {
+            width: 90%;
+            padding: 0px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+        
+         .form-row {
+            display: flex;
+            /*justify-content: space-between;*/
+            gap: 500px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        
+        }
+        .form-row input {
+            width: 40%;
+        }
+
+         footer {
+            background: #f4f4f4;
+            text-align: center;
+            padding: 10px;
+        }
