@@ -24,9 +24,10 @@
     <h1>Sitemap</h1>
     <p>This is a text-based sitemap for search engines.</p>
     <pre>
-        https://example.com/page1
-        https://example.com/page2
-        https://example.com/page3
+https://www.ahobbyistspresents.com/index.html
+https://www.ahobbyistspresents.com/acp-cycling-gifts.html
+https://www.ahobbyistspresents.com/agp-guitar-gifts.html
+https://www.ahobbyistspresents.com/AHP_Catalogue_2025.pdf
     </pre>
 </body>
 </html>
