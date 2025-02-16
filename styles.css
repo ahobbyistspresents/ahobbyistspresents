@@ -56,12 +56,6 @@
                 text-align: center;
        }
 
-h2 {
-         
-                width: 100%;
-                text-align: center;
-}
-
         main {
             padding: 0px;
             align: center;
@@ -104,6 +98,7 @@ h2 {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            text-align: center;
             box-sizing: border-box;
         }
         .split-container div {
