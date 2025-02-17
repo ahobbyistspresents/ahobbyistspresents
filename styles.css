@@ -106,8 +106,8 @@
         
         button {
             display: block;
-            margin: auto;
-            padding: 20px;
+            margin-top: 25px;
+            margin-bottom: 25px;
             background-color: #023047;
             color: white;
             border: none;
@@ -118,21 +118,21 @@
 
         input, textarea {
             width: 90%;
-            padding: 0px;
-            margin-top: 0px;
+            margin-top: 25px;
+            margin-bottom: 25px;
             box-sizing: border-box;
         }
         
          .form-row {
             display: flex;
-            /*justify-content: space-between;*/
-            gap: 500px;
-            padding-top: 25px;
-            padding-bottom: 25px;
+            justify-content:left;
+            gap: 00px;
+            margin-top: 25px;
+            margin-bottom: 25px;
         
         }
         .form-row input {
-            width: 40%;
+            width: 45%;
         }
 
          footer {
