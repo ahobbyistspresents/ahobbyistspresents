@@ -83,6 +83,44 @@
         </div>
     </div>
 
+<form id="contactForm">
+  <input type="text" name="First name" placeholder="First Name" required>
+  <input type="text" name="Last name" placeholder="Last Name" required>
+  <input type="email" name="Email" placeholder="Email" required>
+  <textarea name="Message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+<div class="full-container">
+<form id="contactForm">
+  <input type="text" name="First name" placeholder="First Name" required>
+  <input type="text" name="Last name" placeholder="Last Name" required>
+  <input type="email" name="Email" placeholder="Email" required>
+  <textarea name="Message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    
+    var formData = new FormData(this);
+    var url = "https://script.google.com/macros/s/AKfycbxPX5pKtxIBjE0tEADmFe5nHkf34hilngjv3y7bd-znkzTHEaEWHbM43gpzIRD_DV86/exec"; // Replace with your actual web app URL
+
+    fetch(url, {
+      method: "POST",
+      body: formData
+    })
+    .then(response => response.text())
+    .then(data => alert("Message Sent!"))
+    .catch(error => alert("Error! " + error));
+  });
+</script>
+</div>
+
+
+
+    
     <div class="full-container" id="contact">
         <h2>Contact</h2>
         <div class="form-row">
