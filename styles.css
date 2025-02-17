@@ -115,7 +115,7 @@
             border-radius: 8px;
             cursor: pointer;
             font-size: 16px;
-            align-items: center;
+            justify-content: center;
         }
 
         input, textarea {
