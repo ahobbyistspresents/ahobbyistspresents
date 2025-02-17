@@ -106,8 +106,8 @@
         
         button {
             display: block;
-            margin-top: 25px;
-            margin-bottom: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
             background-color: #023047;
             color: white;
             border: none;
@@ -118,8 +118,8 @@
 
         input, textarea {
             width: 90%;
-            margin-top: 25px;
-            margin-bottom: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
             box-sizing: border-box;
         }
         
@@ -127,8 +127,8 @@
             display: flex;
             justify-content:left;
             gap: 00px;
-            margin-top: 25px;
-            margin-bottom: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         
         }
         .form-row input {
