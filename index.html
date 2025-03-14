@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8B5PS8HRHE"></script>
 <script>
@@ -9,33 +10,28 @@
   gtag('js', new Date());
 
   gtag('config', 'G-8B5PS8HRHE');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="AHP_favicon.png">
-    <title>Home | AHP</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>AHP - Gifts for Passionate People</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <div class="header-image"></div>
 
-<nav class="navbar">
-        <a href="index.html">
-            <img src="AHP_logo.png" alt="AHP Logo" class="logo" style="width:200px;height:100px;padding-left: 50px;">
-        </a>
-        <div class="nav-links">
-            <a href="acp-cycling-gifts.html">Cycling Gifts</a> |
-            <a href="agp-guitar-gifts.html">Guitar Gifts</a> |
-            <a href="AHP_Catalogue_2025.pdf">2025 Catalogue</a> |
-            <a href="#about">About</a> |
-            <a href="#collaborate">Let's Collaborate</a> |
-            <a href="#contact">Contact</a>
+    <!-- Load Header -->
+    <div id="header-placeholder"></div>
+
+    <main>
+        <div class="hero-text" style="background-color:rgba(240, 195, 16,1); margin-left: 42px;margin-right: 42px;">
+            <h1>Giftware for Passionate People</h1>
+            <br>
+            <br>
+            <h2>Thoughtfully designed gifts people love to give, and enthusiasts love to get</h2>
         </div>
-    </nav>
-    </header>
-    
-    <div class="container">
+
+        
+        <div class="container">
         <div class="half-container" style="padding-left; 25px">
             <h2>A Cyclist's Presents</h2>
             <a href="acp-cycling-gifts.html"><img src="Pedalling_Truths.png" alt="Cycling Products"></a>
@@ -48,8 +44,8 @@
         </div>
     </div>
 
-    <div class="full-container" id="about" style="background-image: url('about.png');">
-        <h2><u>About AHP</u></h2>
+    <div class="container" id="about" style="background-image: url('about.png');">
+        <h2 style="width: 100%;"><u>About AHP</u></h2>
         <div class="split-container" style="background-color: rgba(255, 255, 255, .75);padding-left: 25px;padding-top: 25px;padding-bottom: 25px;padding-right: 25px;">
             <div style="padding-right: 100px;">
                 <p>Design, data, and fun drive product development.</p>
@@ -69,22 +65,24 @@
         </div>
     </div>
 
-    <div class="full-container" id="collaborate" style="background-image: url('collaborate.png');">
-        <h2><u>Let's Collaborate</u></h2>
-        <div class="split-container" style="background-color: rgba(255, 255, 255, .75);padding-left: 25px;padding-top: 25px;padding-bottom: 25px;padding-right: 25px;">
+    <div class="container" id="collaborate" style="background-image: url('collaborate.png');">
+        <h2 style="width: 100%;"><u>Let's Collaborate</u></h2>
+        <div class="split-container" style="background-color: rgba(255, 255, 255, .75);padding-left: 25px;padding-right: 25px">
             <div style="padding-right: 100px;">
                 <p>Bikes and guitars aren't the only hobbies worth obsessing over.</p>
                 <p>But bikes and guitars are what keep me up at night.</p>
                 <p>Got a hobby that you're passionate about? Send me an email. We can find a way to collaborate to bring your idea to life.</p>
             </div>
             <div>
-                <center><button onclick="location.href='#contact'">Get in touch to collaborate</button></center>
+                <center><button onclick="location.href='#contact'">
+Get in touch to collaborate</button></center>
             </div>
         </div>
     </div>
 
-<div class="full-container" id="contact">
-<form id="contactForm">
+<div class="container" id="contact">
+    <h2 style="width: 100%;"><u>Contact</u></h2>
+<form id="contactForm" style="width:100%;">
   <input type="text" name="First name" placeholder="First Name" required>
   <input type="text" name="Last name" placeholder="Last Name" required>
   <input type="email" name="Email" placeholder="Email" required>
@@ -109,25 +107,10 @@
   });
 </script>
 </div>
+    </main>
 
+    <!-- Load Footer -->
+    <div id="footer-placeholder"></div>
 
-
-    <!--- 
-    <div class="full-container" id="contact">
-        <h2>Contact</h2>
-        <div class="form-row">
-            <input type="text" placeholder="First name">
-            <input type="text" placeholder="Last name">
-        </div>
-        <input type="email" placeholder="Email">
-        <textarea placeholder="Type your message here" rows="4"></textarea>
-        <button type="submit">Submit</button>
-    </div> --->
-</body>
-
-    
-    <footer>
-        <p>&copy; 2025 Stories From Ltd | All rights reserved | Company number 12431453</p>
-    </footer>
 </body>
 </html>
