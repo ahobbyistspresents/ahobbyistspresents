@@ -53,10 +53,10 @@ header {
             background: white; /* Placeholder for header image */
         }
 
-
 .logo {
-  width: 250px;
-  height: 125px;
+  width: 150px;
+  height: 90px;
+  margin-top: 15px;
 }
 
 .nav-links {
@@ -208,9 +208,7 @@ img {
 footer {
             background: #f4f4f4;
             text-align: center;
-            padding: 10px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+            padding: 50px;
         }
 
 /* Responsive Design */
