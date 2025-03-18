@@ -103,10 +103,7 @@ main {
 .container {
             display: flex;
             flex-wrap: wrap;
-            padding-left: 75px;
-            padding-right: 75px;
-            padding-top: 75px;
-            padding-bottom: 75px;
+            padding: 75px;
             box-sizing: border-box;
          }
 
