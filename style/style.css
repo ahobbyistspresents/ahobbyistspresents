@@ -1,10 +1,4 @@
 /* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 a:link{
     color:black;
     text-decoration: none;
@@ -97,8 +91,6 @@ main {
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
     padding: 75px;
     box-sizing: border-box;
 }
@@ -110,12 +102,21 @@ main {
     text-align: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(200px, 1fr));
+    grid-gap: 10px
+}
+
+.grid-item {
+    text-align: center;
+}
+
 .split-container {
-    display: flex;
     justify-content: space-between;
     text-align: left;
     box-sizing: border-box;
-    width: 90%;
     background-color: rgba(255, 255, 255, .75);
     padding-left: 25px;
     padding-top: 25px;
@@ -200,8 +201,14 @@ hr {
 }
 
 img {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
+}
+
+.image-container {
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto; /* centres the image in the container */
 }
 
 footer {
@@ -233,14 +240,12 @@ footer {
     .product-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
 
 @media (max-width: 480px) {
     .product-grid {
         grid-template-columns: 1fr;
     }
-
 }
 
 /* moved the styling from the html page to here */
@@ -248,7 +253,6 @@ footer {
     background:#fff;
     clear:left;
     font:14px AILERON,sans-serif;
-    width: 600px;
 }
 
 .mc-form {
@@ -269,6 +273,10 @@ footer {
     background-color: #023047;
     padding-left: 20px;
     padding-right: 20px
+}
+
+.hidden {
+    display: none;
 }
 
 .hero-container {
