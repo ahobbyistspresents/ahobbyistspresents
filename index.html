@@ -27,24 +27,29 @@
     </div>
 
     <div class="container">
-        <div class="half-container left-padding">
-            <h2>A Cyclist's Presents</h2><br>
-            <h3>Giftware for cyclists</h3>
-                <a href="acp-cycling-gifts.html"><img src="Images/Pedalling_Truths.png" alt="Cycling Products"></a>
-            <button onclick="location.href='acp-cycling-gifts.html'">Check out ACP's gifts for cyclists</button>
-        </div>
-        <div class="half-container">
-            <h2>A Guitarist's Presents</h2><br>
-            <h3>Giftware for guitarists</h3>
-                <a href="agp-guitar-gifts.html"><img src="Images/GTT_True_or_False.png" alt="Guitar Products"></a>
-            <button onclick="location.href='agp-guitar-gifts.html'">Check out AGP's gifts for guitarists</button>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>A Cyclist's Presents</h2><br>
+                <h3>Giftware for cyclists</h3>
+                <div class="image-container">
+                    <a href="acp-cycling-gifts.html"><img src="Images/Pedalling_Truths.png" alt="Cycling Products"></a>
+                </div>
+                <button onclick="location.href='acp-cycling-gifts.html'">Check out ACP's gifts for cyclists</button>
+            </div>
+            <div class="grid-item">
+                <h2>A Guitarist's Presents</h2><br>
+                <h3>Giftware for guitarists</h3>
+                <div class="image-container">
+                    <a href="agp-guitar-gifts.html"><img src="Images/GTT_True_or_False.png" alt="Guitar Products"></a>
+                </div>
+                <button onclick="location.href='agp-guitar-gifts.html'">Check out AGP's gifts for guitarists</button>
+            </div>
         </div>
     </div>
 
     <div class="container" id="about">
         <h2 class="full-width"><u>About AHP</u></h2>
         <div class="split-container">
-            <div class="right-padding-large">
                 <p>Design, data, and fun drive product development.</p><br>
                 <p>Eoghan McHugh, a cycling and guitar enthusiast, started ACP in 2023 and AGP in 2024 to create giftware for cyclists and guitarists.</p><br>
                 <p>Each product answers four key questions:</p><br>
@@ -55,21 +60,17 @@
                     <li>Will the recipient get something from their gift?</li>
                 </ol><br>
                 <p>Every item is crafted with these principles, ensuring thoughtful, well-designed gifts for cyclists and guitarists alike.</p>
-            </div>
-            <!--- <div>
-            <center><img src="about-image.jpg" alt="About AHP"></center>
-        </div> --->
+
         </div>
     </div>
 
     <div class="container" id="collaborate">
         <h2 class="full-width"><u>Let's Collaborate</u></h2>
         <div class="split-container">
-            <div class="right-padding-large">
-                <p>Bikes and guitars aren't the only hobbies worth obsessing over.</p><br>
-                <p>But bikes and guitars are what keep me up at night.</p><br>
-                <p>Got a hobby that you're passionate about? Send me an email. We can find a way to collaborate to bring your idea to life.</p>
-            </div>
+            <p>Bikes and guitars aren't the only hobbies worth obsessing over.</p><br>
+            <p>But bikes and guitars are what keep me up at night.</p><br>
+            <p>Got a hobby that you're passionate about? Send me an email. We can find a way to collaborate to bring your idea to life.</p>
+
             <div>
                 <button onclick="location.href='#contact'">
                     Get in touch to collaborate
@@ -79,7 +80,7 @@
     </div>
 
     <div class="container" id="contact">
-        <div id="mc_embed_shell">
+        <div>
 
             <div id="mc_embed_signup">
                 <form action="https://ahobbyistspresents.us12.list-manage.com/subscribe/post?u=4c4585079fe53a45c8e6488f4&amp;id=138b2224dd&amp;f_id=00469ee0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mc-form" target="_blank">
@@ -94,7 +95,7 @@
                             <div class="response mc-response-container" id="mce-error-response" ></div>
                             <div class="response mc-response-container" id="mce-success-response" ></div>
                         </div>
-                        <div aria-hidden="true">
+                        <div aria-hidden="true" class="hidden">
                             /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
                             <input type="text" name="b_4c4585079fe53a45c8e6488f4_138b2224dd" tabindex="-1" value="">
                         </div>
