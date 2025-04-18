@@ -256,11 +256,10 @@ footer {
   }
 }
 
-/* moved the styling from the html page to here */
  #mc_embed_signup{
      background:#fff;
      clear:left;
-     font:14px AILERON,sans-serif;
+     font:12px AILERON,sans-serif;
  }
  
  .mc-form {
