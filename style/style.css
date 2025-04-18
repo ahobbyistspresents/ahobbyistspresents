@@ -190,18 +190,6 @@ button {
     font-size: 16px;
 }
 
-optionalParent {
-    display: block;
-    margin: auto;
-    padding: 20px;
-    background-color: #023047;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
 hr {
   width: 60%;
     height: 2px;
