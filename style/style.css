@@ -121,7 +121,7 @@ main {
  }
 
 .split-container {
-  display: flex;
+  display: block;
   justify-content: space-between;
   text-align: left;
   box-sizing: border-box;
