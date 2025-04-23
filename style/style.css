@@ -100,7 +100,6 @@ main {
 .container {
             padding: 75px;
             box-sizing: border-box;
-            display: flex
          }
 
 .half-container {
