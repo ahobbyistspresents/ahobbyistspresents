@@ -216,6 +216,10 @@ img {
      margin: auto; /* centres the image in the container */
 }
 
+.input type {
+  width: 100%;
+}
+
 footer {
   background: #f4f4f4;
   text-align: center;
