@@ -216,7 +216,7 @@ img {
      margin: auto; /* centres the image in the container */
 }
 
-.input type {
+.input[type {
   width: 100%;
 }
 
