@@ -200,6 +200,10 @@ button {
     font-size: 16px;
 }
 
+inline-buttons {
+  margin-bottom: 20PX;
+}
+
 hr {
   width: 60%;
   height: 2px;
