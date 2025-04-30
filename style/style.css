@@ -235,8 +235,10 @@ footer {
     position: absolute;
     background: #333;
     width: 100%;
+    color: white;
     left: 0;
-    top: 60px;
+    top: 60px;    
+    padding: 20px;
   }
 
   .nav-links.active {
