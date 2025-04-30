@@ -202,9 +202,8 @@ button {
 
 hr {
   width: 60%;
-    height: 2px;
-    margin-bottom: 0;
-    margin-top: 50px;
+  height: 2px;
+  margin: auto;
 }
   
 .inline-buttons {
