@@ -37,6 +37,14 @@ h2 {
   font-size: 24px;
 }
 
+h3 {
+  margin-top: AUTO;
+  margin-bottom: AUTO;
+  margin-left: 25px;
+  margin-right: 25PX;
+  font-size: 1.5em;
+}
+
 /* Header */
 header {
   background: #f4f4f4;
