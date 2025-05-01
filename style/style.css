@@ -245,7 +245,7 @@ footer {
     flex-direction: column;
     position: absolute;
     background: #333;
-    color: white;
+    color: white !important;
     width: 100%;
     left: 0;
     top: 60px;    
