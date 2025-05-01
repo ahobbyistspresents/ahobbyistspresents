@@ -244,7 +244,7 @@ footer {
     display: none;
     flex-direction: column;
     position: absolute;
-    background: #333;
+    background: rgba(240, 195, 16,1);
     color: white !important;
     width: 100%;
     left: 0;
