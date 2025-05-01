@@ -53,21 +53,25 @@ header {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding-top:15px;
-  padding-bottom:15px;
-  padding-left: 31.313px;
-  padding-right: 62.638px;
-  }
+  padding: 2%;
+}
 
+/*
 .header-image {
   height: 200px;
   background: white;
-  /* Placeholder for header image */
+ Placeholder for header image
 }
+*/
 
 .logo {
   width: 150px;
   height: 90px;
+  margin: auto;
+}
+
+.nav{
+  margin: auto;
 }
 
 .nav-links {
