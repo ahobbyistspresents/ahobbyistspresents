@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wholesale Cycling & Guitar Gifts for Retailers | A Hobbyist’s Presents</title>
+  <meta name="description" content="A Hobbyist’s Presents supplies design-led wholesale gifts for cyclists and guitarists. Low MOQs, UK-based, RRPs £10–£25. Enquire for trade pricing and become a stockist." />
+  <meta name="robots" content="index,follow" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Wholesale Cycling & Guitar Gifts for Retailers" />
+  <meta property="og:description" content="Design-led wholesale gifts for cyclists and guitarists. Low MOQs, RRPs £10–£25. UK-based trade supplier." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.ahobbyistspresents.com/wholesale.html" />
+
+  <!-- Basic, conflict-free utility styles to match your clean layout -->
+  <style>
+    :root {
+      --ink: #222;
+      --ink-soft: #555;
+      --bg: #fff;
+      --brand: #0e7490; /* subtle teal */
+      --brand-ink: #0b556a;
+      --muted: #f5f7f8;
+      --border: #e5e7eb;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--ink); background: var(--bg); line-height: 1.55;
+    }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+    header { border-bottom: 1px solid var(--border); background: var(--bg); position: sticky; top: 0; z-index: 5; }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .nav a.logo { font-weight: 700; letter-spacing: 0.2px; color: var(--ink); }
+    .nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 1rem; flex-wrap: wrap; }
+    .nav li { margin: 0; }
+
+    .hero { padding: 3rem 0 2rem; }
+    .hero h1 { font-size: clamp(1.8rem, 3.5vw, 2.6rem); margin: 0 0 0.75rem; }
+    .hero p.lede { font-size: 1.125rem; color: var(--ink-soft); max-width: 70ch; }
+
+    .grid { display: grid; gap: 1rem; }
+    .grid-3 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .grid-2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+
+    section { padding: 2rem 0; }
+    h2 { font-size: clamp(1.4rem, 3vw, 2rem); margin: 0 0 0.75rem; }
+    h3 { font-size: 1.125rem; margin: 0.75rem 0 0.25rem; }
+    .card { border: 1px solid var(--border); border-radius: 14px; padding: 1rem; background: #fff; }
+    .muted { background: var(--muted); border: 1px solid var(--border); }
+    .badge { display: inline-block; background: var(--brand); color: #fff; padding: 0.2rem 0.55rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+
+    .cta { display: inline-flex; align-items: center; gap: 0.5rem; border-radius: 9999px; padding: 0.75rem 1rem; font-weight: 600; border: 1px solid var(--brand); color: #fff; background: var(--brand); }
+    .cta.secondary { background: transparent; color: var(--brand); }
+    .cta:hover { text-decoration: none; box-shadow: 0 2px 0 rgba(0,0,0,0.06); }
+
+    .list { padding-left: 1rem; }
+    .list li { margin-bottom: 0.35rem; }
+
+    .kpis { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .kpi { flex: 1 1 180px; border: 1px solid var(--border); border-radius: 12px; padding: 0.85rem 1rem; background: #fff; }
+    .kpi b { display: block; font-size: 1.35rem; }
+
+    footer { border-top: 1px solid var(--border); margin-top: 2rem; }
+    .small { font-size: 0.925rem; color: var(--ink-soft); }
+
+    /* Simple FAQ accordion */
+    details { border: 1px solid var(--border); border-radius: 12px; padding: 0.75rem 1rem; background: #fff; }
+    details + details { margin-top: 0.75rem; }
+    summary { cursor: pointer; font-weight: 600; }
+
+    /* Responsive table */
+    .table { width: 100%; border-collapse: collapse; }
+    .table th, .table td { border: 1px solid var(--border); padding: 0.6rem; text-align: left; }
+    .table th { background: #fafafa; }
+  </style>
+
+  <!-- Structured Data: Organization + WebSite + BreadcrumbList + FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "A Hobbyist’s Presents",
+    "url": "https://www.ahobbyistspresents.com/",
+    "logo": "https://www.ahobbyistspresents.com/favicon.ico",
+    "description": "UK-based supplier of design-led wholesale gifts for cyclists and guitarists.",
+    "areaServed": "GB",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "email": "hello@ahobbyistspresents.com"
+    }]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "A Hobbyist’s Presents",
+    "url": "https://www.ahobbyistspresents.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.ahobbyistspresents.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem","position": 1,
+      "name": "Home",
+      "item": "https://www.ahobbyistspresents.com/"
+    },{
+      "@type": "ListItem","position": 2,
+      "name": "Wholesale",
+      "item": "https://www.ahobbyistspresents.com/wholesale.html"
+    }]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question","name": "Who do you supply?","acceptedAnswer": {"@type": "Answer","text": "We supply independent retailers, gift shops, cycle cafés, bike shops, museum and gallery stores, and music retailers across the UK."}},
+      {"@type": "Question","name": "Do you offer wholesale pricing?","acceptedAnswer": {"@type": "Answer","text": "Yes. All products are available on a wholesale basis. Request our current trade list for pricing, recommended RRPs, and order terms."}},
+      {"@type": "Question","name": "What are your minimum order quantities (MOQs)?","acceptedAnswer": {"@type": "Answer","text": "We keep MOQs low to make testing lines easy for independents. Ask for current MOQs per range when you enquire."}},
+      {"@type": "Question","name": "What are your typical RRPs?","acceptedAnswer": {"@type": "Answer","text": "Most products retail between £10 and £25, making them ideal impulse and gifting price points."}},
+      {"@type": "Question","name": "Where do you ship from?","acceptedAnswer": {"@type": "Answer","text": "Orders ship from the UK. Lead times vary by range and quantity; we’ll confirm when you enquire."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav" role="navigation" aria-label="Primary">
+      <a class="logo" href="/">A Hobbyist’s Presents</a>
+      <ul>
+        <li><a href="/acp-cycling-gifts.html">Cycling Gifts (ACP)</a></li>
+        <li><a href="/agp-guitar-gifts.html">Guitar Gifts (AGP)</a></li>
+        <li><a href="#wholesale-enquiries" class="cta secondary">Wholesale Enquiries</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero container">
+      <span class="badge" aria-label="Trade page">Wholesale / Trade</span>
+      <h1>Wholesale Gifts for Cyclists &amp; Guitarists</h1>
+      <p class="lede">UK-based, design-led giftware made for independent shops. We supply retailers, distributors, and stockists with cycling and guitar gifts that sell at accessible price points. <strong>All ranges are available wholesale</strong> with low MOQs and RRPs typically between <strong>£10–£25</strong>.</p>
+      <p>
+        <a class="cta" href="#wholesale-enquiries">Enquire for Trade Pricing</a>
+        <a class="cta secondary" href="#ranges">View Ranges</a>
+      </p>
+    </section>
+
+    <section class="container" id="reasons">
+      <h2>Why Stock A Hobbyist’s Presents?</h2>
+      <div class="grid grid-3">
+        <article class="card">
+          <h3>Category Focus</h3>
+          <p>We specialise in <a href="/acp-cycling-gifts.html">cycling gifts</a> and <a href="/agp-guitar-gifts.html">guitar gifts</a>—niche passions that perform on the shop floor.</p>
+        </article>
+        <article class="card">
+          <h3>Design-Led &amp; Giftable</h3>
+          <p>Eye-catching, well-made products with playful concepts. Perfect for tills, tables, and themed displays.</p>
+        </article>
+        <article class="card">
+          <h3>Low-Risk Entry</h3>
+          <p>Low MOQs and friendly RRPs (£10–£25) make testing easy for independents.</p>
+        </article>
+        <article class="card">
+          <h3>Indie-Friendly Margins</h3>
+          <p>Trade pricing and clear RRPs to support healthy sell-through and repeat orders.</p>
+        </article>
+        <article class="card">
+          <h3>UK-Based Supplier</h3>
+          <p>We ship from the UK with straightforward communication and predictable lead times.</p>
+        </article>
+        <article class="card">
+          <h3>Made for B2B</h3>
+          <p>Ranges, packaging, and POS assets designed with retailers in mind. Request a line sheet when you enquire.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container" id="ranges">
+      <h2>Ranges Available (Wholesale)</h2>
+      <div class="grid grid-2">
+        <article class="card">
+          <h3>A Cyclist’s Presents (ACP)</h3>
+          <p>Quizzes, flashcard games, wrapping paper, and DIY wire bike sculptures for cyclists. Proven in gift shops, bike shops, and cycle cafés.</p>
+          <p>
+            <a class="cta secondary" href="/acp-cycling-gifts.html" aria-label="View ACP Cycling Gifts wholesale range">Explore ACP Cycling Gifts</a>
+          </p>
+        </article>
+        <article class="card">
+          <h3>A Guitarist’s Presents (AGP)</h3>
+          <p>Games and gifts tailored to guitar players and music lovers—ideal for music stores and design-led gift retailers.</p>
+          <p>
+            <a class="cta secondary" href="/agp-guitar-gifts.html" aria-label="View AGP Guitar Gifts wholesale range">Explore AGP Guitar Gifts</a>
+          </p>
+        </article>
+      </div>
+
+      <div class="kpis" aria-label="Key trade info">
+        <div class="kpi"><b>£10–£25</b>Typical RRP band</div>
+        <div class="kpi"><b>Low</b>Minimum order quantities</div>
+        <div class="kpi"><b>UK</b>Fulfilment & shipment</div>
+      </div>
+    </section>
+
+    <section class="container" id="who-we-supply">
+      <h2>Who We Supply</h2>
+      <div class="grid grid-3">
+        <div class="card"><h3>Independent Gift Shops</h3><p>Design-first lines for seasonal tables and gifting bays.</p></div>
+        <div class="card"><h3>Bike Shops & Cycle Cafés</h3><p>Range built around cycling culture—easy add-on sales.</p></div>
+        <div class="card"><h3>Music & Guitar Stores</h3><p>Guitar-themed gifts for players and fans alike.</p></div>
+        <div class="card"><h3>Museums & Galleries</h3><p>Topical gifts for sport and music exhibitions.</p></div>
+        <div class="card"><h3>Distributors</h3><p>Consistent ranges and simple onboarding for wholesale partners.</p></div>
+        <div class="card"><h3>Online Retailers</h3><p>Compact, shippable SKUs with strong product copy.</p></div>
+      </div>
+    </section>
+
+    <section class="container" id="how-to-order">
+      <h2>How to Order (Trade)</h2>
+      <ol class="list">
+        <li>Send a quick enquiry with your shop name and location.</li>
+        <li>We’ll reply with the current trade list (pricing, MOQs, RRPs) and recommended bestsellers for your store type.</li>
+        <li>Confirm your order and delivery details. We’ll provide a lead time and invoice.</li>
+      </ol>
+      <p class="small">Prefer to preview products first? Explore <a href="/acp-cycling-gifts.html">ACP Cycling Gifts</a> and <a href="/agp-guitar-gifts.html">AGP Guitar Gifts</a>, then come back to request wholesale pricing.</p>
+    </section>
+
+    <section class="container" id="wholesale-faqs" aria-labelledby="faqs-heading">
+      <h2 id="faqs-heading">Wholesale FAQs</h2>
+      <details>
+        <summary>Do you have a minimum order?</summary>
+        <div>
+          <p>Yes, but we keep MOQs low so independents can test lines. MOQs vary by range—ask for the current list when you enquire.</p>
+        </div>
+      </details>
+      <details>
+        <summary>What margins can I expect?</summary>
+        <div>
+          <p>We provide wholesale price, recommended RRP, and any promo guidance on the trade list to support healthy indie margins.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Where do you ship from?</summary>
+        <div>
+          <p>All orders ship from the UK. We’ll confirm lead time and shipping costs when you share your order volume and postcode.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Can you supply distributors?</summary>
+        <div>
+          <p>Yes. If you’re a distributor, please include your territory and preferred onboarding terms in your enquiry.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Do you offer POS assets?</summary>
+        <div>
+          <p>We can share imagery and copy for online listings and provide light-touch POS suggestions for in-store displays.</p>
+        </div>
+      </details>
+    </section>
+
+    <section class="container muted card" id="wholesale-enquiries">
+      <h2>Wholesale Enquiries</h2>
+      <p>Ready to become a stockist? Email <a href="mailto:hello@ahobbyistspresents.com">hello@ahobbyistspresents.com</a> or use the form below. We’ll reply with our current trade list and MOQs.</p>
+      <form method="post" action="mailto:hello@ahobbyistspresents.com" enctype="text/plain">
+        <div class="grid grid-2">
+          <label>
+            <span>Full name</span><br />
+            <input type="text" name="name" required style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:10px;" />
+          </label>
+          <label>
+            <span>Shop / Company</span><br />
+            <input type="text" name="company" required style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:10px;" />
+          </label>
+          <label>
+            <span>Email</span><br />
+            <input type="email" name="email" required style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:10px;" />
+          </label>
+          <label>
+            <span>Location (Town / Postcode)</span><br />
+            <input type="text" name="location" style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:10px;" />
+          </label>
+        </div>
+        <label>
+          <span>Message</span><br />
+          <textarea name="message" rows="5" placeholder="Tell us what you’d like to stock, estimated quantities, and any MOQs you need." style="width:100%; padding:0.6rem; border:1px solid var(--border); border-radius:10px;"></textarea>
+        </label>
+        <p style="margin-top:0.75rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+          <button type="submit" class="cta">Send Wholesale Enquiry</button>
+          <a class="cta secondary" href="/acp-cycling-gifts.html">Browse ACP Cycling Gifts</a>
+          <a class="cta secondary" href="/agp-guitar-gifts.html">Browse AGP Guitar Gifts</a>
+        </p>
+        <p class="small">By sending this form you consent to us contacting you about wholesale pricing and terms. We’ll never share your details.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container small">
+      <p><strong>A Hobbyist’s Presents</strong> &middot; UK-based supplier of wholesale gifts for cyclists and guitarists.</p>
+      <p><a href="/privacy.html">Privacy</a> &middot; <a href="#wholesale-enquiries">Contact</a></p>
+    </div>
+  </footer>
+</body>
+</html>
