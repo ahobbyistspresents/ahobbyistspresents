@@ -272,10 +272,12 @@ footer {
 }
 
 /* Panel Visual Contrast Treatment */
+/*
 .about-panel {
   background-color: #f9f9f9; /* Subtle off-white card look */
   border: 1px solid #eee;
 }
+*/
 
 .collaborate-panel {
   background-color: #ffffff;
@@ -360,10 +362,12 @@ footer {
     align-items: stretch; /* Makes both panels equal height */
     gap: 50px;
   }
-  
+
+  /*
   .about-panel, .collaborate-panel {
     margin-bottom: 0;
   }
+  */
 }
 
 /* Responsive Design */
@@ -442,10 +446,12 @@ footer {
      padding-top: 125px;
      padding-bottom: 125px;
  }
- 
+
+/*
  #about {
      background-image: url('../Images/Website/about.png');
  }
+*/
  
  #collaborate {
      background-image: url('../Images/Website/collaborate.png');
