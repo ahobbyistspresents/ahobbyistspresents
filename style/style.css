@@ -61,13 +61,6 @@ header {
   padding: 2%;
 }
 
-/*
-.header-image {
-  height: 200px;
-  background: white;
- Placeholder for header image
-}
-*/
 
 .logo {
   width: 150px;
@@ -117,13 +110,14 @@ main {
   font-size: 18pt; /* or 1.5rem */
 }
 
-<!--
+/*
 .hero-subtitle {
   margin-top: 50px !important; /* Or adjust to 1.5rem–2rem for responsive layouts */
   font-size: 1.5rem !important; /* ~18pt */
   line-height: 1.4;
 }
--->
+*/
+
 .container {
             padding: 75px;
             box-sizing: border-box;
@@ -240,11 +234,17 @@ img {
   height: 100%;
   width: 100%;
 }
-
+/*
 .image-container {
      max-width: 400px;
      max-height: 400px;
      margin: auto; /* centres the image in the container */
+} */
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Horizontally centers the image */
+  align-items: center;     /* Vertically centers the image (if container has height) */
 }
 
 footer {
