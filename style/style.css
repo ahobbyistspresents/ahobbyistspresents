@@ -440,6 +440,17 @@ footer {
      padding-top: 125px;
      padding-bottom: 125px;
  }
+
+.hero-container h1 {
+  /* Your H1 styling */
+  margin-bottom: 1.5rem;
+}
+
+.hero-container .hero-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #000000;
+}
  
  .right-padding {
      padding-right: 25px;
