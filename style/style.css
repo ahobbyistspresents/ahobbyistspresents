@@ -90,6 +90,54 @@ nav{
   text-decoration: underline;
 }
 
+/* Container styling */
+.category-nav {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 0 1rem;
+}
+
+/* Prompt text */
+.category-nav-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333333;
+}
+
+/* Flexbox list for auto-wrapping navigation buttons */
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 0.75rem; /* Vertical and horizontal button spacing */
+}
+
+/* Individual button links */
+.category-list a {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  background-color: #f4f4f4;
+  color: #222222;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-radius: 20px; /* Gives a smooth pill shape */
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover & Focus state for user feedback */
+.category-list a:hover,
+.category-list a:focus {
+  background-color: #222222;
+  color: #ffffff;
+  border-color: #222222;
+}
+
 /* Hamburger menu (hidden by default) */
 .hamburger {
   display: none;
