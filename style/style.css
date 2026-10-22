@@ -119,8 +119,8 @@ main {
 }
 
 .hero-subtitle {
-  margin-top: 50px; /* Or adjust to 1.5rem–2rem for responsive layouts */
-  font-size: 1.5rem; /* ~18pt */
+  margin-top: 50px !important; /* Or adjust to 1.5rem–2rem for responsive layouts */
+  font-size: 1.5rem !important; /* ~18pt */
   line-height: 1.4;
 }
 
