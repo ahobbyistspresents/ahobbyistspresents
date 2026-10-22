@@ -121,12 +121,12 @@ nav{
 .category-list a {
   display: inline-block;
   padding: 0.4rem 0.9rem;
-  background-color: #f4f4f4;
+  background-color: none;
   color: #222222;
   text-decoration: none;
   font-size: 1rem;
   border-radius: 40px; /* Gives a smooth pill shape */
-  border: 1px solid #e0e0e0;
+  border: 2px solid #1f2937;
   transition: all 0.2s ease-in-out;
 }
 
