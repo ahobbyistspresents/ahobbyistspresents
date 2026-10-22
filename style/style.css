@@ -100,8 +100,8 @@ nav{
 
 /* Prompt text */
 .category-nav-title {
-  font-size: 1rem;
-  font-weight: 18pt;
+  font-size: 18pt;
+  font-weight: 1rem;
   margin-bottom: 1rem;
   color: #333333;
 }
