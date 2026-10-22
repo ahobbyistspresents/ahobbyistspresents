@@ -124,8 +124,8 @@ nav{
   background-color: #F0C310;
   color: #222222;
   text-decoration: none;
-  font-size: 0.9rem;
-  border-radius: 20px; /* Gives a smooth pill shape */
+  font-size: 1rem;
+  border-radius: 40px; /* Gives a smooth pill shape */
   border: 1px solid #e0e0e0;
   transition: all 0.2s ease-in-out;
 }
