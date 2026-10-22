@@ -235,18 +235,22 @@ main {
 button {
   display: block;
     margin: auto;
-    padding: 20px;
-    background-color: #023047;
-    color: white;
-    border: none;
-    border-radius: 8px;
+    padding: 0.4rem 0.9rem;
+    background-color: #f4f4f4;
+    color: #1f2937;
+    border: border: 1px solid #1f2937;
+    border-radius: 40px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
+  margin-left: 40px;
+  margin-bottom: 40px;
 }
 
+/*
 inline-buttons {
   margin-bottom: 20PX;
 }
+*/
 
 hr {
   width: 60%;
@@ -269,12 +273,6 @@ img {
   height: 100%;
   width: 100%;
 }
-/*
-.image-container {
-     max-width: 400px;
-     max-height: 400px;
-     margin: auto; /* centres the image in the container */
-} */
 
 .image-container {
   display: flex;
