@@ -110,14 +110,6 @@ main {
   font-size: 18pt; /* or 1.5rem */
 }
 
-/*
-.hero-subtitle {
-  margin-top: 50px !important; /* Or adjust to 1.5rem–2rem for responsive layouts */
-  font-size: 1.5rem !important; /* ~18pt */
-  line-height: 1.4;
-}
-*/
-
 .container {
             padding: 75px;
             box-sizing: border-box;
