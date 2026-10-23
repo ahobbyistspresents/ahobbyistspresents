@@ -90,6 +90,32 @@ nav{
   text-decoration: underline;
 }
 
+.nav-menu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  list-style: none;
+  padding: 0;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Show the dropdown when hovering over the parent item */
+.nav-menu .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the dropdown links */
+.dropdown-content li a {
+  padding: 10px 15px;
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+  background-color: #f1f1f1;
+}
+
 /* Container styling */
 .category-nav {
   text-align: center;
