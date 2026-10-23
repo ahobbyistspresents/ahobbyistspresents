@@ -67,7 +67,7 @@ header {
   height: 90px;
   margin: auto;
 }
-
+/*
 nav{
   margin: auto;
 }
@@ -89,7 +89,8 @@ nav{
 .nav-links a:hover {
   text-decoration: underline;
 }
-
+*/
+/*
 /* Make the main navigation horizontal */
 .nav-menu {
   list-style: none;
@@ -131,8 +132,61 @@ nav{
   box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
   z-index: 999;
 }
+*/
+/* --- Base Styles --- */
+.navbar {
+  background-color: #222;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
 
-/* Style the links inside the dropdown */
+/* Hide checkbox and hamburger by default on desktop */
+.menu-toggle, .hamburger {
+  display: none;
+}
+
+/* Main horizontal menu */
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-menu a {
+  display: block;
+  color: #fff;
+  padding: 15px 20px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-menu a:hover {
+  background-color: #444;
+}
+
+/* Dropdown styling */
+.nav-menu .dropdown {
+  position: relative;
+}
+
+.nav-menu .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  min-width: 220px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
+  z-index: 999;
+}
+
 .dropdown-content li a {
   color: #333;
   padding: 12px 16px;
@@ -143,10 +197,13 @@ nav{
   background-color: #f1f1f1;
 }
 
-/* Reveal the dropdown when hovering over the "Wholesale" item */
+/* Show dropdown on hover for desktop */
 .nav-menu .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+
 
 /* Container styling */
 .category-nav {
@@ -459,6 +516,80 @@ footer {
 }
 
 /* --- Media Query for Desktop (Screens wider than 768px) --- */
+
+/* --- Mobile Styles (Screens 768px and under) --- */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Display the hamburger icon */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+  }
+
+  .hamburger .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+  }
+
+  /* Hide the menu by default on mobile */
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  /* When the checkbox is checked, show the menu */
+  .menu-toggle:checked ~ .nav-menu {
+    display: flex;
+  }
+
+  /* Make dropdown items visible/stacked nicely inside the mobile menu */
+  .nav-menu .dropdown-content {
+    position: static;
+    box-shadow: none;
+    background-color: #333;
+    display: block; /* Expand dropdown or let it show inline for mobile simplicity */
+  }
+
+  .dropdown-content li a {
+    color: #fff;
+    padding-left: 30px; /* Indent subcategories slightly */
+  }
+
+  .dropdown-content li a:hover {
+    background-color: #444;
+  }
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content li a {
+  color: #333;
+  padding: 12px 16px;
+  background-color: transparent;
+}
+
+.dropdown-content li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Reveal the dropdown when hovering over the "Wholesale" item */
+.nav-menu .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 @media (min-width: 768px) {
   .info-container {
     flex-direction: row; /* Snaps components side-by-side on desktop */
